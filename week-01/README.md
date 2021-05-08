@@ -8,6 +8,7 @@ This demo will build and configure several services and servers within AWS so th
 ## Requirements
 - node/npm [installed](https://www.npmjs.com/get-npm)
 - AWS CLI [installed](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+- AWS CLI [configured](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
 - AWS CDK [installed](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#getting_started_install)
   - `npm install -g aws-cdk`
 - AWS CDK [bootstrapped](https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html)
