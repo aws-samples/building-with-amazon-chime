@@ -18,7 +18,7 @@ This demo will build and configure several services and servers within AWS so th
   
 ## Deployment
 
-- Clone this repo: `git clone git@github.com:aws-samples/building-with-amazon-chime.git`
+- Clone this repo: `git clone https://github.com/aws-samples/building-with-amazon-chime.git`
 - `cd building-with-amazon-chime/week-01/`
 - `chmod +x deploy.sh`
 - `./deploy.sh`
