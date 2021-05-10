@@ -1,6 +1,6 @@
 # Overview
 
-This repository will hold the demos that have been shown on the [AWS Twitch](https://www.twitch.tv/aws) stream.  Building with Chime airs every every Monday at 3 Pacific.  Be sure to tune in to see the latest demos.  
+This repository will hold the demos that have been shown on the [AWS Twitch](https://www.twitch.tv/aws) stream.  Building with Chime airs every every Monday at 1 Pacific.  Be sure to tune in to see the latest demos.  
 
 ## Hosts
 
