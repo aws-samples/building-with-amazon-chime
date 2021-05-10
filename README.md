@@ -14,4 +14,4 @@ In this episode we will be building an Asterisk server on EC2 and connecting it 
 
 ## Questions
 
-If you have any questions about what was discussed or deployments, feel free to ask here on on Twitter.  If there is something Amazon Chime related you'd like to see, please let us know.  
+If you have any questions about what was discussed or deployments, feel free to ask here or on Twitter.  If there is something Amazon Chime related you'd like to see, please let us know.  
