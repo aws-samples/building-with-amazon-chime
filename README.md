@@ -12,7 +12,7 @@ This repository will hold the demos that have been shown on the [AWS Twitch](htt
 ### [Week One](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-01)
 In this episode we will be building an Asterisk server on EC2 and connecting it to an Amazon Chime Voice Connector so that you can make a call.  
 
-### [Week Two](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-01)
+### [Week Two](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-02)
 In this episode we will be using the base Asterisk server we built in Week One and expanding it with fax support and then tying that to additional AWS services to process that fax.
 ## Questions
 
