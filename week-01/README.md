@@ -26,6 +26,12 @@ This script will ensure that all dependencies are installed and ready for the CD
 
 If curl is installed and available, this will be determined automatically.  If not, you will be able to input your external IP address manually.
 
+If you get a schema related error, please uninstall and re-install aws-cdk to get to the latest version.  
+```
+npm uninstall -g aws-cdk
+npm install -g aws-cdk
+```
+
 ## Connecting to the Asterisk Server
 
 The output of the CDK will include several commands that you will use to connect to your Asterisk server.  There is no requirement to connect to the Asterisk server, but may be of interest.  

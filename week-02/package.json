@@ -1,0 +1,28 @@
+{
+  "name": "building-with-amazon-chime-week-02",
+  "version": "0.1.0",
+  "bin": {
+    "ec2-cdk": "bin/asterisk-fax-server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.100.0",
+    "@types/jest": "^26.0.22",
+    "@types/node": "14.14.41",
+    "aws-cdk": "^1.100.0",
+    "ts-node": "^9.1.1",
+    "typescript": "~4.2.4"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-ec2": "^1.100.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.104.0",
+    "@aws-cdk/core": "^1.100.0",
+    "@aws-cdk/custom-resources": "^1.100.0",
+    "cdk-ec2-key-pair": "^2.1.1",
+    "source-map-support": "^0.5.19"
+  }
+}
