@@ -55,4 +55,4 @@ npm run build
 echo ""
 echo "Deploying CDK"
 echo ""
-cdk deploy -c SecurityGroupIP=$ExternalIP
+cdk deploy
