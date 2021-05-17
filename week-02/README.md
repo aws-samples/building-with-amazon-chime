@@ -26,7 +26,7 @@ The output of the CDK will include several commands that you will use to connect
 The CDK will create a key-pair and store the private key in AWS SecretsManager.  The DownloadKeyCommand will download this file to your local machine.  The public key of this key-pair has already been loaded in the Asterisk server.  The sshcommand will then ssh to your Asterisk server.
 
 ## Overview
-![Week-02-Overview](/images/Week-02-Diagram-Overview.png)
+![Week-02-Overview](images/Week-02-Diagram-Overview.png)
 ## Changes from Previous Asterisk
 
 In the previous demo, we created a simple Asterisk server to be used to make phone calls to the PSTN.  In this demo, we'll be using many of the same components but making some changes to the Asterisk configuration and adding some new components.
