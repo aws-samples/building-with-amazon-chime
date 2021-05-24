@@ -14,6 +14,9 @@ In this episode we will be building an Asterisk server on EC2 and connecting it 
 
 ### [Week Two](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-02)
 In this episode we will be using the base Asterisk server we built in Week One and expanding it with fax support and then tying that to additional AWS services to process that fax.
+
+### [Week Three](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-03)
+In this epsidode we'll work through some common troubleshooting scenarios and how to process CDRs from Voice Connector.
 ## Questions
 
 If you have any questions about what was discussed or deployments, feel free to ask here or on Twitter.  If there is something Amazon Chime related you'd like to see, please let us know.  
