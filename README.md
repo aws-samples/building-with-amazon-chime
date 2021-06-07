@@ -12,11 +12,18 @@ This repository will hold the demos that have been shown on the [AWS Twitch](htt
 ### [Week One](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-01)
 In this episode we will be building an Asterisk server on EC2 and connecting it to an Amazon Chime Voice Connector so that you can make a call.  
 
+[Twitch Video](https://www.twitch.tv/videos/1018106494)
 ### [Week Two](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-02)
 In this episode we will be using the base Asterisk server we built in Week One and expanding it with fax support and then tying that to additional AWS services to process that fax.
 
+[Twitch Video](https://www.twitch.tv/videos/1026116160)
+
 ### [Week Three](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-03)
-In this epsidode we'll work through some common troubleshooting scenarios and how to process CDRs from Voice Connector.
+In this epsidode we'll work through some common troubleshooting scenarios and how to get PCAPs from an EC2 instance.
+[Twitch Video](https://www.twitch.tv/videos/1033973484)
+
+### [Week Four](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-04)
+In this epsiode we'll explore the how to process CDRs and how to extract metadata from a SIP INVITE using CLoudWatch Logs and Lambdas.
 ## Questions
 
 If you have any questions about what was discussed or deployments, feel free to ask here or on Twitter.  If there is something Amazon Chime related you'd like to see, please let us know.  
