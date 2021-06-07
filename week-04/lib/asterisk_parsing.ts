@@ -20,7 +20,7 @@ export class AsteriskParsing extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props: StackProps) {
     super(scope, id);
 
-    const cdrTable = new dynamodb.Table(this, 'meetings', {
+    const cdrTable = new dynamodb.Table(this, 'cdrTable', {
       partitionKey: {
         name: 'callId',
         type: dynamodb.AttributeType.STRING
