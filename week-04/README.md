@@ -26,6 +26,9 @@ Please see the directions outlined in [Week-01](https://github.com/aws-samples/b
 
 ## Overview
 
+![Diagram](images/Week-04-Diagram.png)
+
+
 ## Functions
 
 Two Lambda functions are used in this demo.  The process_cdrs.js function will trigger on updates to the S3 bucket used by Amazon Chime Voice Connector.  This bucket is created as part of the CDK deployment and assocaited in the global settings in the Amazon Chime console.  When new CDRs are generated, they will be put in the S3 bucket in JSON format.  This will trigger the Lambda to run and process the contents, look up the cost of this call, and store the results in a Dynamo DB.
