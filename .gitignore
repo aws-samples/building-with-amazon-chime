@@ -16,3 +16,5 @@ SBC_Config.ini
 *.ovpn
 *.pem
 *.drawio
+
+.DS_Store
