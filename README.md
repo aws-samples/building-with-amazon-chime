@@ -24,6 +24,12 @@ In this epsidode we'll work through some common troubleshooting scenarios and ho
 
 ### [Week Four](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-04)
 In this epsiode we'll explore the how to process CDRs and how to extract metadata from a SIP INVITE using CLoudWatch Logs and Lambdas.
+[Twitch Video](https://www.twitch.tv/videos/1033973484)
+
+### [Week Five](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-05)
+In this episode we'll deploy and configure an AudioCode SBC in conjunction with an Asterisk and use a VPN to connect to the Asterisk.
+[Twitch Video](https://www.twitch.tv/videos/1056241310)
+
 ## Questions
 
 If you have any questions about what was discussed or deployments, feel free to ask here or on Twitter.  If there is something Amazon Chime related you'd like to see, please let us know.  

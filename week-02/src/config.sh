@@ -39,10 +39,11 @@ make config
 ldconfig
 
 IP=$( curl http://169.254.169.254/latest/meta-data/public-ipv4 )
-PhoneNumber=$( aws ssm get-parameter --name /asterisk/phoneNumber --region us-east-1 | jq -r '.Parameter.Value' )
-VoiceConnectorHost=$( aws ssm get-parameter --name /asterisk/voiceConnector --region us-east-1 | jq -r '.Parameter.Value' )
-OutboundHostName=$( aws ssm get-parameter --name /asterisk/outboundHostName --region us-east-1 | jq -r '.Parameter.Value' )
-IncomingFaxBucket=$( aws ssm get-parameter --name /asterisk/incomingFaxBucket --region us-east-1 | jq -r '.Parameter.Value' )
+REGION=$( curl http://169.254.169.254/latest/meta-data/placement/region )
+PhoneNumber=$( aws ssm get-parameter --name /asterisk/phoneNumber --region $REGION | jq -r '.Parameter.Value' )
+VoiceConnectorHost=$( aws ssm get-parameter --name /asterisk/voiceConnector --region $REGION | jq -r '.Parameter.Value' )
+OutboundHostName=$( aws ssm get-parameter --name /asterisk/outboundHostName --region $REGION | jq -r '.Parameter.Value' )
+IncomingFaxBucket=$( aws ssm get-parameter --name /asterisk/incomingFaxBucket --region $REGION | jq -r '.Parameter.Value' )
 
 echo "[udp]
 type=transport

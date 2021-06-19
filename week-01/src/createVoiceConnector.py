@@ -84,7 +84,7 @@ def createVoiceConnector (region, phoneNumber):
   print(region)
   response = chime.create_voice_connector(
       Name='Trunk' + str(uuid.uuid1()),
-      AwsRegion='us-east-1',
+      AwsRegion=region,
       RequireEncryption=False
   )
       
