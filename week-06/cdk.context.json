@@ -1,0 +1,11 @@
+{
+  "availability-zones:account=213847755697:region=us-east-1": [
+    "us-east-1a",
+    "us-east-1b",
+    "us-east-1c",
+    "us-east-1d",
+    "us-east-1e",
+    "us-east-1f"
+  ],
+  "ami:account=213847755697:filters.description.0=AudioCodes Mediant VE SBC - PAYG*:filters.image-type.0=machine:filters.name.0=AudioCodes SBC 7.20A*:filters.state.0=available:region=us-east-1": "ami-0d53ce9f7fa96e829"
+}

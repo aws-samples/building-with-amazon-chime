@@ -1,0 +1,18 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+package-lock.json
+
+!SBC_Config/buildSBCConfig.js
+cdk-outputs.json
+SBC_Config.ini
+
+*.ovpn
+*.pem
+*.drawio

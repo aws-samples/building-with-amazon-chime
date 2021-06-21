@@ -30,6 +30,9 @@ In this epsiode we'll explore the how to process CDRs and how to extract metadat
 In this episode we'll deploy and configure an AudioCode SBC in conjunction with an Asterisk and use a VPN to connect to the Asterisk.
 [Twitch Video](https://www.twitch.tv/videos/1056241310)
 
+## Important Note
+Amazon Chime Voice Connector phone number ordering requires an approriately aged account.  If you are getting an error when trying to order a number within your account, please open a ticket to resolve.
+
 ## Questions
 
 If you have any questions about what was discussed or deployments, feel free to ask here or on Twitter.  If there is something Amazon Chime related you'd like to see, please let us know.  
