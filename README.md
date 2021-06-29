@@ -30,6 +30,13 @@ In this epsiode we'll explore the how to process CDRs and how to extract metadat
 In this episode we'll deploy and configure an AudioCode SBC in conjunction with an Asterisk and use a VPN to connect to the Asterisk.
 [Twitch Video](https://www.twitch.tv/videos/1056241310)
 
+### [Week Six](https://github.com/aws-samples/building-with-amazon-chime/tree/main/week-06)
+In this episode, we'll build off of the previous week by adding in a KVS streaming option to the SBC to enable SIPREC recording.  
+[Twitch Video](https://www.twitch.tv/videos/1063314124)
+
+### Week Seven
+Recap episode featuring Dino.
+[Twitch Video](https://www.twitch.tv/videos/1070548077)
 ## Important Note
 Amazon Chime Voice Connector phone number ordering requires an approriately aged account.  If you are getting an error when trying to order a number within your account, please open a ticket to resolve.
 
