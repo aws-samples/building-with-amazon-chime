@@ -18,3 +18,5 @@ SBC_Config.ini
 *.drawio
 
 .DS_Store
+
+yarn.lock
